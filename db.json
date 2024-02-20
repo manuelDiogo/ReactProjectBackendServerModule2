@@ -1,33 +1,562 @@
 {
-  "projects": [
+  "products": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 19.99,
+      "description": "Navigate your computer with ease using this wireless mouse.",
+      "image": "https://images.unsplash.com/photo-1660491083562-d91a64d6ea9c?q=80&w=2962&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "stock": 100
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "name": "Laptop Backpack",
+      "category": "Electronics",
+      "price": 39.99,
+      "description": "Protect and carry your laptop and accessories in this durable backpack.",
+      "image": "https://images.unsplash.com/photo-1667411424598-96b5e5f3139b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwYmFja3BhY2t8ZW58MHx8MHx8fDA%3D",
+      "stock": 50
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "name": "Portable Charger",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Charge your devices on-the-go with this portable charger.",
+      "image": "https://images.unsplash.com/photo-1619489646924-b4fce76b1db5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGFibGUlMjBjaGFyZ2VyfGVufDB8fDB8fHww",
+      "stock": 80
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 49.99,
+      "description": "Enjoy high-quality sound with this portable Bluetooth speaker.",
+      "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "stock": 60
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "category": "Electronics",
+      "price": 99.99,
+      "description": "Stay connected and track your fitness with this smartwatch.",
+      "image": "https://images.unsplash.com/photo-1617625802912-cde586faf331?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c21hcnR3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
+      "stock": 70
+    },
+    {
+      "id": 6,
+      "name": "Noise-Canceling Headphones",
+      "category": "Electronics",
+      "price": 149.99,
+      "description": "Immerse yourself in your music with these noise-canceling headphones.",
+      "image": "https://images.unsplash.com/photo-1576082712237-eb1335ce23a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5vaXNlJTIwY2FuY2VsbGluZyUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "stock": 40
+    },
+    {
+      "id": 7,
+      "name": "Fitness Tracker",
+      "category": "Electronics",
+      "price": 79.99,
+      "description": "Monitor your activity and health with this fitness tracker.",
+      "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zml0bmVzcyUyMHRyYWNrZXJ8ZW58MHx8MHx8fDA%3D",
+      "stock": 90
+    },
+    {
+      "id": 8,
+      "name": "Tablet Stand",
+      "category": "Electronics",
+      "price": 24.99,
+      "description": "Adjustable tablet stand for hands-free viewing and use.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Tablet+Stand",
+      "stock": 120
+    },
+    {
+      "id": 9,
+      "name": "External Hard Drive",
+      "category": "Electronics",
+      "price": 89.99,
+      "description": "Expand your storage capacity with this external hard drive.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Hard+Drive",
+      "stock": 55
+    },
+    {
+      "id": 10,
+      "name": "Gaming Mouse",
+      "category": "Electronics",
+      "price": 49.99,
+      "description": "Enhance your gaming experience with this ergonomic gaming mouse.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Gaming+Mouse",
+      "stock": 65
+    },
+    {
+      "id": 11,
+      "name": "Gaming Keyboard",
+      "category": "Electronics",
+      "price": 69.99,
+      "description": "Mechanical gaming keyboard with customizable RGB backlighting.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Gaming+Keyboard",
+      "stock": 45
+    },
+    {
+      "id": 12,
+      "name": "Wireless Router",
+      "category": "Electronics",
+      "price": 79.99,
+      "description": "High-speed wireless router for seamless internet connectivity.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Wireless+Router",
+      "stock": 75
+    },
+    {
+      "id": 13,
+      "name": "Digital Camera",
+      "category": "Electronics",
+      "price": 199.99,
+      "description": "Capture precious moments with this high-resolution digital camera.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Digital+Camera",
+      "stock": 35
+    },
+    {
+      "id": 14,
+      "name": "Wireless Keyboard",
+      "category": "Electronics",
+      "price": 39.99,
+      "description": "Slim and sleek wireless keyboard for comfortable typing.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Wireless+Keyboard",
+      "stock": 85
+    },
+    {
+      "id": 15,
+      "name": "Bluetooth Earphones",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Wireless Bluetooth earphones for music and calls on-the-go.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Bluetooth+Earphones",
+      "stock": 100
+    },
+    {
+      "id": 16,
+      "name": "Printer",
+      "category": "Electronics",
+      "price": 149.99,
+      "description": "All-in-one printer for printing, scanning, and copying documents.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Printer",
+      "stock": 60
+    },
+    {
+      "id": 17,
+      "name": "Portable Projector",
+      "category": "Electronics",
+      "price": 199.99,
+      "description": "Enjoy big-screen entertainment anywhere with this portable projector.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Projector",
+      "stock": 80
+    },
+    {
+      "id": 18,
+      "name": "Wireless Charging Pad",
+      "category": "Electronics",
+      "price": 24.99,
+      "description": "Convenient wireless charging pad for compatible devices.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Charging+Pad",
+      "stock": 40
+    },
+    {
+      "id": 19,
+      "name": "USB Flash Drive",
+      "category": "Electronics",
+      "price": 14.99,
+      "description": "Compact USB flash drive for storing and transferring files.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Flash+Drive",
+      "stock": 70
+    },
+    {
+      "id": 20,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 79.99,
+      "description": "Enjoy wireless freedom with these comfortable headphones.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Wireless+Headphones",
+      "stock": 90
+    },
+    {
+      "id": 21,
+      "name": "USB-C Hub",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Expand your device's connectivity with this USB-C hub.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=USB-C+Hub",
+      "stock": 55
+    },
+    {
+      "id": 22,
+      "name": "Wireless Gaming Controller",
+      "category": "Electronics",
+      "price": 59.99,
+      "description": "Responsive wireless gaming controller for console and PC gaming.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Gaming+Controller",
+      "stock": 120
+    },
+    {
+      "id": 23,
+      "name": "Wireless Charging Stand",
+      "category": "Electronics",
+      "price": 34.99,
+      "description": "Charge your phone wirelessly with this sleek charging stand.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Charging+Stand",
+      "stock": 65
+    },
+    {
+      "id": 24,
+      "name": "Smart Plug",
+      "category": "Electronics",
+      "price": 19.99,
+      "description": "Control your devices remotely with this smart plug.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Smart+Plug",
+      "stock": 75
+    },
+    {
+      "id": 25,
+      "name": "Wireless Webcam",
+      "category": "Electronics",
+      "price": 49.99,
+      "description": "Stay connected with family and friends with this wireless webcam.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Webcam",
+      "stock": 30
+    },
+    {
+      "id": 26,
+      "name": "Fitness Scale",
+      "category": "Electronics",
+      "price": 39.99,
+      "description": "Track your weight and body composition with this smart fitness scale.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Fitness+Scale",
+      "stock": 65
+    },
+    {
+      "id": 27,
+      "name": "Wireless Charging Dock",
+      "category": "Electronics",
+      "price": 39.99,
+      "description": "Charge multiple devices simultaneously with this wireless charging dock.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Charging+Dock",
+      "stock": 50
+    },
+    {
+      "id": 28,
+      "name": "USB-C Cable",
+      "category": "Electronics",
+      "price": 9.99,
+      "description": "High-quality USB-C cable for fast data transfer and charging.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=USB-C+Cable",
+      "stock": 100
+    },
+    {
+      "id": 29,
+      "name": "Wireless Car Charger",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Charge your phone wirelessly while driving with this car charger.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Car+Charger",
+      "stock": 80
+    },
+    {
+      "id": 30,
+      "name": "Wireless Ergonomic Mouse",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Ergonomic wireless mouse designed for comfort and productivity.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Ergonomic+Mouse",
+      "stock": 45
+    },
+    {
+      "id": 31,
+      "name": "Coffee Maker",
+      "category": "Appliances",
+      "price": 79.99,
+      "description": "Brew delicious coffee at home with this sleek coffee maker.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Coffee+Maker",
+      "stock": 60
+    },
+    {
+      "id": 32,
+      "name": "Yoga Mat",
+      "category": "Sports & Outdoors",
+      "price": 29.99,
+      "description": "Comfortable and durable yoga mat for your workout sessions.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Yoga+Mat",
+      "stock": 100
+    },
+    {
+      "id": 33,
+      "name": "Dumbbell Set",
+      "category": "Fitness",
+      "price": 49.99,
+      "description": "Adjustable dumbbell set for strength training exercises.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Dumbbell+Set",
+      "stock": 40
+    },
+    {
+      "id": 34,
+      "name": "Sunglasses",
+      "category": "Fashion",
+      "price": 39.99,
+      "description": "Protect your eyes in style with these trendy sunglasses.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Sunglasses",
+      "stock": 80
+    },
+    {
+      "id": 35,
+      "name": "Backpack",
+      "category": "Travel & Accessories",
+      "price": 59.99,
+      "description": "Spacious and durable backpack for all your travel needs.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Backpack",
+      "stock": 50
+    },
+    {
+      "id": 36,
+      "name": "Bluetooth Earbuds",
+      "category": "Electronics",
+      "price": 69.99,
+      "description": "Wireless Bluetooth earbuds for music and calls on-the-go.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Earbuds",
+      "stock": 70
+    },
+    {
+      "id": 37,
+      "name": "Electric Scooter",
+      "category": "Electronics",
+      "price": 299.99,
+      "description": "Efficient and eco-friendly electric scooter for urban commutes.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Scooter",
+      "stock": 30
+    },
+    {
+      "id": 38,
+      "name": "Indoor Plants",
+      "category": "Home & Garden",
+      "price": 24.99,
+      "description": "Brighten up your living space with these beautiful indoor plants.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Plants",
+      "stock": 90
+    },
+    {
+      "id": 39,
+      "name": "Resistance Bands",
+      "category": "Fitness",
+      "price": 19.99,
+      "description": "Versatile resistance bands for strength and flexibility workouts.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Resistance+Bands",
+      "stock": 120
+    },
+    {
+      "id": 40,
+      "name": "Hand Blender",
+      "category": "Appliances",
+      "price": 39.99,
+      "description": "Blend, puree, and mix ingredients with ease using this hand blender.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Hand+Blender",
+      "stock": 35
+    },
+    {
+      "id": 41,
+      "name": "Leather Wallet",
+      "category": "Fashion",
+      "price": 49.99,
+      "description": "Classic leather wallet with ample storage for cards and cash.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Wallet",
+      "stock": 65
+    },
+    {
+      "id": 42,
+      "name": "Water Bottle",
+      "category": "Sports & Outdoors",
+      "price": 14.99,
+      "description": "Stay hydrated during workouts with this durable water bottle.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Water+Bottle",
+      "stock": 150
+    },
+    {
+      "id": 43,
+      "name": "Wall Clock",
+      "category": "Home & Decor",
+      "price": 29.99,
+      "description": "Stylish wall clock to enhance the decor of any room.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Wall+Clock",
+      "stock": 55
+    },
+    {
+      "id": 44,
+      "name": "Rolling Luggage",
+      "category": "Travel & Accessories",
+      "price": 99.99,
+      "description": "Durable and lightweight rolling luggage for hassle-free travel.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Luggage",
+      "stock": 25
+    },
+    {
+      "id": 45,
+      "name": "Puzzle Set",
+      "category": "Toys & Games",
+      "price": 19.99,
+      "description": "Engage your mind with this challenging puzzle set.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Puzzle+Set",
+      "stock": 40
+    },
+    {
+      "id": 46,
+      "name": "Bluetooth Keyboard",
+      "category": "Electronics",
+      "price": 59.99,
+      "description": "Wireless Bluetooth keyboard for typing convenience across devices.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Keyboard",
+      "stock": 45
+    },
+    {
+      "id": 47,
+      "name": "Oil Diffuser",
+      "category": "Home & Decor",
+      "price": 34.99,
+      "description": "Create a relaxing atmosphere with this essential oil diffuser.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Diffuser",
+      "stock": 70
+    },
+    {
+      "id": 48,
+      "name": "Stainless Steel Water Bottle",
+      "category": "Sports & Outdoors",
+      "price": 19.99,
+      "description": "Durable stainless steel water bottle for outdoor adventures.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Steel+Bottle",
+      "stock": 85
+    },
+    {
+      "id": 49,
+      "name": "Digital Alarm Clock",
+      "category": "Home & Decor",
+      "price": 19.99,
+      "description": "Convenient digital alarm clock with multiple features.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Alarm+Clock",
+      "stock": 60
+    },
+    {
+      "id": 50,
+      "name": "Resistance Loop Bands",
+      "category": "Fitness",
+      "price": 14.99,
+      "description": "Set of resistance loop bands for effective workouts at home or gym.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Loop+Bands",
+      "stock": 75
+    },
+    {
+      "id": 51,
+      "name": "Cookware Set",
+      "category": "Kitchen",
+      "price": 129.99,
+      "description": "Complete cookware set for versatile cooking options in the kitchen.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Cookware+Set",
+      "stock": 30
+    },
+    {
+      "id": 52,
+      "name": "Artificial Plant",
+      "category": "Home & Decor",
+      "price": 24.99,
+      "description": "Decorate your space with this lifelike artificial plant.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Artificial+Plant",
+      "stock": 90
+    },
+    {
+      "id": 53,
+      "name": "Travel Mug",
+      "category": "Travel & Accessories",
+      "price": 12.99,
+      "description": "Insulated travel mug to keep your beverages hot or cold on-the-go.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Travel+Mug",
+      "stock": 80
+    },
+    {
+      "id": 54,
+      "name": "Power Bank",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Portable power bank for charging your devices anytime, anywhere.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Power+Bank",
+      "stock": 65
+    },
+    {
+      "id": 55,
+      "name": "Shower Caddy",
+      "category": "Home & Bathroom",
+      "price": 19.99,
+      "description": "Organize your shower essentials with this convenient shower caddy.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Shower+Caddy",
+      "stock": 100
+    },
+    {
+      "id": 56,
+      "name": "Memory Foam Pillow",
+      "category": "Home & Bedding",
+      "price": 39.99,
+      "description": "Experience luxurious comfort with this memory foam pillow.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Memory+Foam+Pillow",
+      "stock": 40
+    },
+    {
+      "id": 57,
+      "name": "Bluetooth FM Transmitter",
+      "category": "Electronics",
+      "price": 19.99,
+      "description": "Stream music and take calls in your car with this Bluetooth FM transmitter.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=FM+Transmitter",
+      "stock": 55
+    },
+    {
+      "id": 58,
+      "name": "Sun Hat",
+      "category": "Fashion",
+      "price": 24.99,
+      "description": "Stay shaded and stylish with this wide-brimmed sun hat.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Sun+Hat",
+      "stock": 75
+    },
+    {
+      "id": 59,
+      "name": "Hiking Backpack",
+      "category": "Travel & Accessories",
+      "price": 79.99,
+      "description": "Durable hiking backpack with ample storage for your outdoor adventures.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Hiking+Backpack",
+      "stock": 30
+    },
+    {
+      "name": "Wireless Security Camera",
+      "category": "Home Security",
+      "price": 129.99,
+      "description": "Keep an eye on your home from anywhere with this wireless security camera.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Security+Camera",
+      "stock": 40,
+      "id": 60
+    },
+    {
+      "name": "Smart Thermostat",
+      "category": "Home Automation",
+      "price": 149.99,
+      "description": "Efficiently control your home's temperature with this smart thermostat.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Smart+Thermostat",
+      "stock": 25,
+      "id": 61
+    },
+    {
+      "name": "Smart Thermostat",
+      "category": "Home Automation",
+      "price": 149.99,
+      "description": "Efficiently control your home's temperature with this smart thermostat.",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Smart+Thermostat",
+      "stock": 25,
+      "id": 62
     }
   ]
 }
