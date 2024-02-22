@@ -16,7 +16,8 @@
       "price": 39.99,
       "description": "Protect and carry your laptop and accessories in this durable backpack.",
       "image": "https://images.unsplash.com/photo-1667411424598-96b5e5f3139b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwYmFja3BhY2t8ZW58MHx8MHx8fDA%3D",
-      "stock": 50
+      "stock": 50,
+      "review": []
     },
     {
       "id": 3,
@@ -34,7 +35,16 @@
       "price": 49.99,
       "description": "Enjoy high-quality sound with this portable Bluetooth speaker.",
       "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
-      "stock": 60
+      "stock": 60,
+      "review": [
+        [
+          [
+            "good"
+          ],
+          "great"
+        ],
+        "amazing"
+      ]
     },
     {
       "id": 5,
@@ -69,7 +79,7 @@
       "category": "Electronics",
       "price": 24.99,
       "description": "Adjustable tablet stand for hands-free viewing and use.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Tablet+Stand",
+      "image": "https://images.unsplash.com/photo-1473091534298-04dcbce3278c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 120
     },
     {
@@ -78,7 +88,7 @@
       "category": "Electronics",
       "price": 89.99,
       "description": "Expand your storage capacity with this external hard drive.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Hard+Drive",
+      "image": "https://images.unsplash.com/photo-1613070541337-b40942ee6527?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 55
     },
     {
@@ -87,7 +97,7 @@
       "category": "Electronics",
       "price": 49.99,
       "description": "Enhance your gaming experience with this ergonomic gaming mouse.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Gaming+Mouse",
+      "image": "https://images.unsplash.com/photo-1629429408209-1f912961dbd8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 65
     },
     {
@@ -96,7 +106,7 @@
       "category": "Electronics",
       "price": 69.99,
       "description": "Mechanical gaming keyboard with customizable RGB backlighting.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Gaming+Keyboard",
+      "image": "https://images.unsplash.com/photo-1626958390898-162d3577f293?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 45
     },
     {
@@ -105,7 +115,7 @@
       "category": "Electronics",
       "price": 79.99,
       "description": "High-speed wireless router for seamless internet connectivity.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Wireless+Router",
+      "image": "https://images.unsplash.com/photo-1606421753414-8d165c9d48e5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 75
     },
     {
@@ -114,7 +124,7 @@
       "category": "Electronics",
       "price": 199.99,
       "description": "Capture precious moments with this high-resolution digital camera.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Digital+Camera",
+      "image": "https://images.unsplash.com/photo-1607064788981-37cc9851bace?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 35
     },
     {
@@ -123,8 +133,14 @@
       "category": "Electronics",
       "price": 39.99,
       "description": "Slim and sleek wireless keyboard for comfortable typing.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Wireless+Keyboard",
-      "stock": 85
+      "image": "https://images.unsplash.com/photo-1662830857519-2f9b28e3b4ac?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "stock": 85,
+      "review": [
+        [
+          "good"
+        ],
+        "amazing"
+      ]
     },
     {
       "id": 15,
@@ -132,7 +148,7 @@
       "category": "Electronics",
       "price": 29.99,
       "description": "Wireless Bluetooth earphones for music and calls on-the-go.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Bluetooth+Earphones",
+      "image": "https://images.unsplash.com/photo-1698244244114-b0eb90869056?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 100
     },
     {
@@ -141,7 +157,7 @@
       "category": "Electronics",
       "price": 149.99,
       "description": "All-in-one printer for printing, scanning, and copying documents.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Printer",
+      "image": "https://images.unsplash.com/photo-1625961332771-3f40b0e2bdcf?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 60
     },
     {
@@ -150,16 +166,16 @@
       "category": "Electronics",
       "price": 199.99,
       "description": "Enjoy big-screen entertainment anywhere with this portable projector.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Projector",
+      "image": "https://images.unsplash.com/photo-1638154320403-1bc308a01398?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 80
     },
     {
       "id": 18,
-      "name": "Wireless Charging Pad",
+      "name": "Charging Pad",
       "category": "Electronics",
       "price": 24.99,
-      "description": "Convenient wireless charging pad for compatible devices.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Charging+Pad",
+      "description": "Convenient charging pad for compatible devices.",
+      "image": "https://images.unsplash.com/photo-1636297461709-0812290a9dcc?q=80&w=2840&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 40
     },
     {
@@ -168,7 +184,7 @@
       "category": "Electronics",
       "price": 14.99,
       "description": "Compact USB flash drive for storing and transferring files.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Flash+Drive",
+      "image": "https://images.unsplash.com/photo-1587145820098-23e484e69816?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 70
     },
     {
@@ -177,7 +193,7 @@
       "category": "Electronics",
       "price": 79.99,
       "description": "Enjoy wireless freedom with these comfortable headphones.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Wireless+Headphones",
+      "image": "https://images.unsplash.com/photo-1491927570842-0261e477d937?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 90
     },
     {
@@ -186,7 +202,7 @@
       "category": "Electronics",
       "price": 29.99,
       "description": "Expand your device's connectivity with this USB-C hub.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=USB-C+Hub",
+      "image": "https://images.unsplash.com/photo-1616578273461-3a99ce422de6?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 55
     },
     {
@@ -195,7 +211,7 @@
       "category": "Electronics",
       "price": 59.99,
       "description": "Responsive wireless gaming controller for console and PC gaming.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Gaming+Controller",
+      "image": "https://images.unsplash.com/10/wii.jpg?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 120
     },
     {
@@ -204,7 +220,7 @@
       "category": "Electronics",
       "price": 34.99,
       "description": "Charge your phone wirelessly with this sleek charging stand.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Charging+Stand",
+      "image": "https://images.unsplash.com/photo-1617975426095-f073792aef15?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 65
     },
     {
@@ -213,7 +229,7 @@
       "category": "Electronics",
       "price": 19.99,
       "description": "Control your devices remotely with this smart plug.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Smart+Plug",
+      "image": "https://images.unsplash.com/photo-1580370636283-d0022380db55?q=80&w=2478&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 75
     },
     {
@@ -222,7 +238,7 @@
       "category": "Electronics",
       "price": 49.99,
       "description": "Stay connected with family and friends with this wireless webcam.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Webcam",
+      "image": "https://images.unsplash.com/photo-1705147293087-9e183bf149ef?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 30
     },
     {
@@ -231,7 +247,7 @@
       "category": "Electronics",
       "price": 39.99,
       "description": "Track your weight and body composition with this smart fitness scale.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Fitness+Scale",
+      "image": "https://images.unsplash.com/photo-1522844990619-4951c40f7eda?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 65
     },
     {
@@ -240,7 +256,7 @@
       "category": "Electronics",
       "price": 39.99,
       "description": "Charge multiple devices simultaneously with this wireless charging dock.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Charging+Dock",
+      "image": "https://images.unsplash.com/photo-1674901583166-fc8efef37a7b?q=80&w=2250&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 50
     },
     {
@@ -249,7 +265,7 @@
       "category": "Electronics",
       "price": 9.99,
       "description": "High-quality USB-C cable for fast data transfer and charging.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=USB-C+Cable",
+      "image": "https://plus.unsplash.com/premium_photo-1669262667978-5d4aafe29dd5?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 100
     },
     {
@@ -258,7 +274,7 @@
       "category": "Electronics",
       "price": 29.99,
       "description": "Charge your phone wirelessly while driving with this car charger.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Car+Charger",
+      "image": "https://images.unsplash.com/photo-1698314440022-2d62cb36537c?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 80
     },
     {
@@ -267,7 +283,7 @@
       "category": "Electronics",
       "price": 29.99,
       "description": "Ergonomic wireless mouse designed for comfort and productivity.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Ergonomic+Mouse",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=2934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 45
     },
     {
@@ -276,7 +292,7 @@
       "category": "Appliances",
       "price": 79.99,
       "description": "Brew delicious coffee at home with this sleek coffee maker.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Coffee+Maker",
+      "image": "https://images.unsplash.com/photo-1608354580875-30bd4168b351?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 60
     },
     {
@@ -285,7 +301,7 @@
       "category": "Sports & Outdoors",
       "price": 29.99,
       "description": "Comfortable and durable yoga mat for your workout sessions.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Yoga+Mat",
+      "image": "https://plus.unsplash.com/premium_photo-1667250748777-a4421462ca71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 100
     },
     {
@@ -294,7 +310,7 @@
       "category": "Fitness",
       "price": 49.99,
       "description": "Adjustable dumbbell set for strength training exercises.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Dumbbell+Set",
+      "image": "https://images.unsplash.com/photo-1562771242-a02d9090c90c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 40
     },
     {
@@ -303,7 +319,7 @@
       "category": "Fashion",
       "price": 39.99,
       "description": "Protect your eyes in style with these trendy sunglasses.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Sunglasses",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 80
     },
     {
@@ -312,7 +328,7 @@
       "category": "Travel & Accessories",
       "price": 59.99,
       "description": "Spacious and durable backpack for all your travel needs.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Backpack",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 50
     },
     {
@@ -321,7 +337,7 @@
       "category": "Electronics",
       "price": 69.99,
       "description": "Wireless Bluetooth earbuds for music and calls on-the-go.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Earbuds",
+      "image": "https://images.unsplash.com/photo-1668649176554-3ad841a780d0?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 70
     },
     {
@@ -330,7 +346,7 @@
       "category": "Electronics",
       "price": 299.99,
       "description": "Efficient and eco-friendly electric scooter for urban commutes.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Scooter",
+      "image": "https://images.unsplash.com/photo-1566936737687-8f392a237b8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 30
     },
     {
@@ -339,7 +355,7 @@
       "category": "Home & Garden",
       "price": 24.99,
       "description": "Brighten up your living space with these beautiful indoor plants.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Plants",
+      "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?q=80&w=2982&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 90
     },
     {
@@ -348,7 +364,7 @@
       "category": "Fitness",
       "price": 19.99,
       "description": "Versatile resistance bands for strength and flexibility workouts.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Resistance+Bands",
+      "image": "https://plus.unsplash.com/premium_photo-1666736568986-b08a81c23575?q=80&w=2796&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 120
     },
     {
@@ -357,7 +373,7 @@
       "category": "Appliances",
       "price": 39.99,
       "description": "Blend, puree, and mix ingredients with ease using this hand blender.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Hand+Blender",
+      "image": "https://plus.unsplash.com/premium_photo-1681826671576-8d612accc77a?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 35
     },
     {
@@ -366,7 +382,7 @@
       "category": "Fashion",
       "price": 49.99,
       "description": "Classic leather wallet with ample storage for cards and cash.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Wallet",
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 65
     },
     {
@@ -375,7 +391,7 @@
       "category": "Sports & Outdoors",
       "price": 14.99,
       "description": "Stay hydrated during workouts with this durable water bottle.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Water+Bottle",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 150
     },
     {
@@ -384,7 +400,7 @@
       "category": "Home & Decor",
       "price": 29.99,
       "description": "Stylish wall clock to enhance the decor of any room.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Wall+Clock",
+      "image": "https://images.unsplash.com/photo-1564091880021-bb02f2b2928d?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 55
     },
     {
@@ -393,7 +409,7 @@
       "category": "Travel & Accessories",
       "price": 99.99,
       "description": "Durable and lightweight rolling luggage for hassle-free travel.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Luggage",
+      "image": "https://plus.unsplash.com/premium_photo-1683121166075-c2798623be14?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 25
     },
     {
@@ -402,7 +418,7 @@
       "category": "Toys & Games",
       "price": 19.99,
       "description": "Engage your mind with this challenging puzzle set.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Puzzle+Set",
+      "image": "https://images.unsplash.com/photo-1494059980473-813e73ee784b?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 40
     },
     {
@@ -411,7 +427,7 @@
       "category": "Electronics",
       "price": 59.99,
       "description": "Wireless Bluetooth keyboard for typing convenience across devices.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Keyboard",
+      "image": "https://images.unsplash.com/photo-1619683322755-4545503f1afa?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 45
     },
     {
@@ -420,7 +436,7 @@
       "category": "Home & Decor",
       "price": 34.99,
       "description": "Create a relaxing atmosphere with this essential oil diffuser.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Diffuser",
+      "image": "https://images.unsplash.com/photo-1605671507162-43e526ef6f97?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 70
     },
     {
@@ -429,7 +445,7 @@
       "category": "Sports & Outdoors",
       "price": 19.99,
       "description": "Durable stainless steel water bottle for outdoor adventures.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Steel+Bottle",
+      "image": "https://images.unsplash.com/photo-1664714628878-9d2aa898b9e3?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 85
     },
     {
@@ -438,7 +454,7 @@
       "category": "Home & Decor",
       "price": 19.99,
       "description": "Convenient digital alarm clock with multiple features.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Alarm+Clock",
+      "image": "https://images.unsplash.com/photo-1639224130396-74c8376ea825?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 60
     },
     {
@@ -447,7 +463,7 @@
       "category": "Fitness",
       "price": 14.99,
       "description": "Set of resistance loop bands for effective workouts at home or gym.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Loop+Bands",
+      "image": "https://images.unsplash.com/photo-1610720991840-457ad2c7a658?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 75
     },
     {
@@ -456,7 +472,7 @@
       "category": "Kitchen",
       "price": 129.99,
       "description": "Complete cookware set for versatile cooking options in the kitchen.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Cookware+Set",
+      "image": "https://images.unsplash.com/photo-1584990347449-fd98bc063110?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 30
     },
     {
@@ -465,7 +481,7 @@
       "category": "Home & Decor",
       "price": 24.99,
       "description": "Decorate your space with this lifelike artificial plant.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Artificial+Plant",
+      "image": "https://images.unsplash.com/photo-1699076011969-644bdc43bb23?q=80&w=2836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 90
     },
     {
@@ -474,7 +490,7 @@
       "category": "Travel & Accessories",
       "price": 12.99,
       "description": "Insulated travel mug to keep your beverages hot or cold on-the-go.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Travel+Mug",
+      "image": "https://images.unsplash.com/photo-1606858977619-2c0abead279e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 80
     },
     {
@@ -483,7 +499,7 @@
       "category": "Electronics",
       "price": 29.99,
       "description": "Portable power bank for charging your devices anytime, anywhere.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Power+Bank",
+      "image": "https://images.unsplash.com/photo-1594843665794-446ce915d840?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 65
     },
     {
@@ -492,7 +508,7 @@
       "category": "Home & Bathroom",
       "price": 19.99,
       "description": "Organize your shower essentials with this convenient shower caddy.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Shower+Caddy",
+      "image": "https://images.unsplash.com/photo-1556229181-695df2bf2d6f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 100
     },
     {
@@ -501,7 +517,7 @@
       "category": "Home & Bedding",
       "price": 39.99,
       "description": "Experience luxurious comfort with this memory foam pillow.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Memory+Foam+Pillow",
+      "image": "https://images.unsplash.com/photo-1628992304915-1f67982fd774?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 40
     },
     {
@@ -510,7 +526,7 @@
       "category": "Electronics",
       "price": 19.99,
       "description": "Stream music and take calls in your car with this Bluetooth FM transmitter.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=FM+Transmitter",
+      "image": "https://images.unsplash.com/photo-1518671678551-911467efe539?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 55
     },
     {
@@ -519,7 +535,7 @@
       "category": "Fashion",
       "price": 24.99,
       "description": "Stay shaded and stylish with this wide-brimmed sun hat.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Sun+Hat",
+      "image": "https://images.unsplash.com/photo-1622498159371-15d14f8acdaa?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 75
     },
     {
@@ -528,7 +544,7 @@
       "category": "Travel & Accessories",
       "price": 79.99,
       "description": "Durable hiking backpack with ample storage for your outdoor adventures.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Hiking+Backpack",
+      "image": "https://images.unsplash.com/photo-1620953749696-38989c40eadb?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 30
     },
     {
@@ -536,7 +552,7 @@
       "category": "Home Security",
       "price": 129.99,
       "description": "Keep an eye on your home from anywhere with this wireless security camera.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Security+Camera",
+      "image": "https://images.unsplash.com/photo-1549109926-58f039549485?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 40,
       "id": 60
     },
@@ -545,18 +561,9 @@
       "category": "Home Automation",
       "price": 149.99,
       "description": "Efficiently control your home's temperature with this smart thermostat.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Smart+Thermostat",
+      "image": "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "stock": 25,
       "id": 61
-    },
-    {
-      "name": "Smart Thermostat",
-      "category": "Home Automation",
-      "price": 149.99,
-      "description": "Efficiently control your home's temperature with this smart thermostat.",
-      "image": "https://dummyimage.com/600x400/000/fff&text=Smart+Thermostat",
-      "stock": 25,
-      "id": 62
     }
   ]
 }
